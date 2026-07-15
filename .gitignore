@@ -1,0 +1,71 @@
+# --- Python bytecode & caches -------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments -----------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# --- Test / coverage artifacts ------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter notebooks ---------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Environment & secrets ----------------------------------------------
+# Real .env files must never be committed. .env.example is the tracked template.
+.env
+.env.*
+!.env.example
+
+# --- Logs & runtime data -----------------------------------------------
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Tool / editor artifacts --------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- ADK runtime artifacts ----------------------------------------------
+# `adk run` and `adk web` create a per-project SQLite session DB here.
+.adk/
+backend/agents/*/__pycache__/
+
+# --- Puku / agent-runtime artifacts -------------------------------------
+# Puku is the AI runtime that edits this project; ignore its bookkeeping
+# (plans, embeddings DB, config so it doesn't shadow a future file).
+.puku/
+
+# --- Distribution / build outputs ---------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+node_modules/
+
+# --- Misc ---------------------------------------------------------------
+*.bak
+*.tmp
+*.swp

@@ -1,0 +1,7 @@
+google-adk
+litellm
+requests
+python-dotenv
+pdfplumber
+python-docx
+agentmail

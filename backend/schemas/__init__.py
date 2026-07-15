@@ -1,0 +1,1 @@
+"""Pydantic output contracts (kept empty — agent 2 returns free-form markdown)."""
