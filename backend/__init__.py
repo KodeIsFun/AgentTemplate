@@ -1,1 +1,0 @@
-"""Backend package for the doc-analysis multi-agent pipeline."""
